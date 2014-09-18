@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Interface Name="nilnul.number.real.ClosedOpI" Collapsed="true">
+    <Position X="2.75" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>real\op\returnReal\closed\ClosedOpI.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="SimSun" Size="9" />
+</ClassDiagram>

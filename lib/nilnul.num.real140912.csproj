@@ -1,0 +1,250 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{DC7CD21E-6810-417A-951B-54DBE4A00784}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>nilnul.num.real</RootNamespace>
+    <AssemblyName>nilnul.num.real140912</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Numerics" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="be\Sign.cs" />
+    <Compile Include="be\Zero.cs" />
+    <Compile Include="be\NotZero.cs" />
+    <Compile Include="Cut.cs" />
+    <Compile Include="E_posConverge2bounded.cs" />
+    <Compile Include="E5.cs" />
+    <Compile Include="E_byPow.cs" />
+    <Compile Include="E4.cs" />
+    <Compile Include="E3.cs" />
+    <Compile Include="GoldenRatioBig_accuracy.cs" />
+    <Compile Include="IrrationalI.cs" />
+    <Compile Include="LnTwo.cs" />
+    <Compile Include="n2b\Delegate.cs" />
+    <Compile Include="n2b\Real.cs" />
+    <Compile Include="n2b\RealI.cs" />
+    <Compile Include="n2b\RealI2.cs" />
+    <Compile Include="n2b\TailA.cs" />
+    <Compile Include="n2b\TailI.cs" />
+    <Compile Include="n2b\tail\Combosite.cs" />
+    <Compile Include="n2b\tail\Literal.cs" />
+    <Compile Include="n2b\tail\Periodic.cs" />
+    <Compile Include="n2b\tail\Zero.cs" />
+    <Compile Include="op\Abs_posConverge2bounded.cs" />
+    <Compile Include="op\Abs_accuracy2.cs" />
+    <Compile Include="op\Abs_posRadius.cs" />
+    <Compile Include="op\Add_posConverge2bounded.cs" />
+    <Compile Include="op\Add_accuracy2.cs" />
+    <Compile Include="op\ArgArg1_posConverge2bounded.cs" />
+    <Compile Include="op\Arg_posConverge2bounded.cs" />
+    <Compile Include="op\Arg.cs" />
+    <Compile Include="op\ArgArg1.cs" />
+    <Compile Include="op\binary\Args.cs" />
+    <Compile Include="op\Divide_posConverge2interval.cs" />
+    <Compile Include="op\Divide_accuracy.cs" />
+    <Compile Include="op\Divide_posRadius.cs" />
+    <Compile Include="op\Exp_baseIndex.cs" />
+    <Compile Include="op\Ln.cs" />
+    <Compile Include="op\Exp_indexN.cs" />
+    <Compile Include="op\Exp_rational_realPosConverge2bounded.cs" />
+    <Compile Include="op\Exp_rationalTail_posConverge2interval.cs" />
+    <Compile Include="op\Exp_rationalTail.cs" />
+    <Compile Include="op\Exp_rational.cs" />
+    <Compile Include="op\Exp.cs" />
+    <Compile Include="op\Inverse_posConverge2interval.cs" />
+    <Compile Include="op\Inverse_accuracy2.cs" />
+    <Compile Include="op\Inverse_posPrecision.cs" />
+    <Compile Include="op\Inverse1.cs" />
+    <Compile Include="op\LnQ.cs" />
+    <Compile Include="op\LnOfQuotientNoMoreThanTwo.cs" />
+    <Compile Include="op\Multi_accuracy2.cs" />
+    <Compile Include="op\Multi_posConverge2bounded.cs" />
+    <Compile Include="op\NaturalRoot.cs" />
+    <Compile Include="op\Negate_posConverge2bounded.cs" />
+    <Compile Include="op\Negate2.cs" />
+    <Compile Include="op\Negate1.cs" />
+    <Compile Include="op\Pow_posConverge2interval.cs" />
+    <Compile Include="op\Pow_indexNatural.cs" />
+    <Compile Include="op\Pow__Q2Q.cs" />
+    <Compile Include="op\Pow__rational.cs" />
+    <Compile Include="op\RootOfInt.cs" />
+    <Compile Include="op\RootOfNatural___accuracy.cs" />
+    <Compile Include="op\Root.cs" />
+    <Compile Include="op\RootOfQuotient.cs" />
+    <Compile Include="op\Scale.cs" />
+    <Compile Include="op\sqrt\OfTwoAsRecurFunc.cs" />
+    <Compile Include="op\Subtract2.cs" />
+    <Compile Include="op\Subtract1.cs" />
+    <Compile Include="op\Multi_posRadius.cs" />
+    <Compile Include="Pi_accuracy.cs" />
+    <Compile Include="Rational_posConvergeBounded.cs" />
+    <Compile Include="Rational_accuracy.cs" />
+    <Compile Include="Rational.cs" />
+    <Compile Include="RationalAndSeriesI.cs" />
+    <Compile Include="RationalSeriesX.cs" />
+    <Compile Include="RationalSeriesI.cs" />
+    <Compile Include="ApproachRationalX.cs" />
+    <Compile Include="ApproachRationalA.cs" />
+    <Compile Include="be\IsNonZero.cs" />
+    <Compile Include="be\Negative.cs" />
+    <Compile Include="be\Positive.cs" />
+    <Compile Include="be\IsZero.cs" />
+    <Compile Include="double_\CubicX.cs" />
+    <Compile Include="double_\GoldenRatio.cs" />
+    <Compile Include="double_\Interval2.cs" />
+    <Compile Include="double_\LessThanOrEqualTo.cs" />
+    <Compile Include="double_\PositiveX.cs" />
+    <Compile Include="double_\NonNegativeX2.cs" />
+    <Compile Include="double_\NonNegativeX.cs" />
+    <Compile Include="double_\SquareX.cs" />
+    <Compile Include="double_\Sum.cs" />
+    <Compile Include="E.cs" />
+    <Compile Include="funcs\ExpSum.cs" />
+    <Compile Include="func\PolyFunc.cs" />
+    <Compile Include="double_\ClosedInterval.cs" />
+    <Compile Include="func\Pow %282%29.cs" />
+    <Compile Include="func\RootOfNatural.cs" />
+    <Compile Include="GoldenRatioBig.cs" />
+    <Compile Include="inst\Pi.cs" />
+    <Compile Include="ApproachRationalI.cs" />
+    <Compile Include="op\Abs.cs" />
+    <Compile Include="op\Inverse.cs" />
+    <Compile Include="op\Divide.cs" />
+    <Compile Include="op\Times.cs" />
+    <Compile Include="op\Subtract.cs" />
+    <Compile Include="op\Negate.cs" />
+    <Compile Include="op\Add.cs" />
+    <Compile Include="prop\Sign.cs" />
+    <Compile Include="MakeAccurateI.cs" />
+    <Compile Include="Real%281.cs" />
+    <Compile Include="RealI_posConverge2NonEmpty.cs" />
+    <Compile Include="RealI_posSpan.cs" />
+    <Compile Include="RealI_withAccuracy2.cs" />
+    <Compile Include="RealI_withAccuracy.cs" />
+    <Compile Include="RealI_posRadius.cs" />
+    <Compile Include="RealI3.cs" />
+    <Compile Include="Pi_posRadius_independentFroTau.cs" />
+    <Compile Include="RealX.cs" />
+    <Compile Include="Tau_accuracy2.cs" />
+    <Compile Include="Tau_posConverge2interval.cs" />
+    <Compile Include="Tau_posRadius.cs" />
+    <Compile Include="TauX.cs" />
+    <Compile Include="Tau.cs" />
+    <Compile Include="N2BFunc.cs" />
+    <Compile Include="n2b\Zero.cs" />
+    <Compile Include="op\Pow.cs" />
+    <Compile Include="op\Sqrt.cs" />
+    <Compile Include="op\sqrt\expr\Of9_4_.cs" />
+    <Compile Include="op\sqrt\OfTwo.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="double_\PositiveX2.cs" />
+    <Compile Include="property\Positive.cs" />
+    <Compile Include="RealI.cs" />
+    <Compile Include="set\SumX.cs" />
+    <Compile Include="WallisProductI.cs" />
+    <Compile Include="RealI2.cs" />
+    <Compile Include="Zero3%28realI3.cs" />
+    <Compile Include="Zero.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\nilnul%28130115\lib\nilnul%28130621.csproj">
+      <Project>{781321c7-7737-4b1f-ba13-048169502805}</Project>
+      <Name>nilnul%28130621</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\nilnul.bit%28sln\lib\nilnul.bit130616.csproj">
+      <Project>{109c1344-5bea-4e1a-b662-2c7fe60ac428}</Project>
+      <Name>nilnul.bit130616</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\nilnul.collection.set\lib\nilnul.collection.set130710.csproj">
+      <Project>{2aa0c2e4-554d-4e03-bb2d-9325def32ad0}</Project>
+      <Name>nilnul.collection.set130710</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\nilnul.collection\lib\nilnul.collection%28131218.csproj">
+      <Project>{8a90ee69-6c6d-46a9-b344-04111ebd0172}</Project>
+      <Name>nilnul.collection%28131218</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\nilnul.num.natural%28sln\lib\nilnul.num.natural140912.csproj">
+      <Project>{e4ac66be-7995-4581-85e4-38d4e1c3e79f}</Project>
+      <Name>nilnul.num.natural140912</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\nilnul.num.rational%28sln%29\lib\nilnul.num.rational140912.csproj">
+      <Project>{3bebadc3-18fd-4e4b-acc1-78880afe8179}</Project>
+      <Name>nilnul.num.rational140912</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\nilnul.obj\lib\nilnul.obj.csproj">
+      <Project>{9807479b-f797-4a18-9feb-0cc576c27308}</Project>
+      <Name>nilnul.obj</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\nilnul.order\lib\nilnul.order%28131219withInterval.csproj">
+      <Project>{63759cd3-6172-4308-b978-3563645f858e}</Project>
+      <Name>nilnul.order%28131219withInterval</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\nilnul.relation%28sln\lib\nilnul.relation%28130616.csproj">
+      <Project>{d9162372-81be-4d8f-8321-e5d53372c59c}</Project>
+      <Name>nilnul.relation%28130616</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="double_\interval\" />
+    <Folder Include="interval\" />
+    <Folder Include="order\" />
+    <Folder Include="rel\" />
+    <Folder Include="var\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="inst\Pi.Bbp.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="n2b\ClassDiagram1.cd" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,50 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+
+
+namespace nilnul.realNumber
+{
+	static public class Add_Extension
+	{
+		static public ExprI<RealI> Add(this ExprI<RealI> left,ExprI<RealI> right){
+			return new AddExpr(left,right);
+
+		}
+
+		static public ExprI<RealI> Add(this ExprI<RealI> left, ulong right)
+		{
+			return new AddExpr(left, right.ToReal());
+
+		}
+		static public ExprI<RealI> Add(this ExprI<RealI> left, long right)
+		{
+			return new AddExpr(left, right.ToReal());
+
+		}
+		static public ExprI<RealI> Add(this ExprI<RealI> left, uint right)
+		{
+			return new AddExpr(left, right.ToReal());
+
+		}
+		static public ExprI<RealI> Add(this ExprI<RealI> left, int right)
+		{
+			return new AddExpr(left, right.ToReal());
+
+		}
+		static public ExprI<RealI> Add(this ExprI<RealI> left, decimal right)
+		{
+			return new AddExpr(left, right.ToReal());
+
+		}
+		//static public ExprI<RealI> Add(this ExprI<RealI> left, double right)
+		//{
+		//    return new AddExpr(left, right.ToReal());
+
+		//}
+		
+
+
+	}
+}

@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="nilnul.number.real.op.RealBinaryOp">
+    <Position X="7.5" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAQAAAAAAAAAAAAAACAAAAQAAAAAAAAAAAAAAAgAA=</HashCode>
+      <FileName>number\real\op\RealBinaryOp.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Interface Name="nilnul.number.real.op.IRealAdd">
+    <Position X="1.75" Y="4.5" Width="1.5" />
+    <InheritanceLine Type="nilnul.number.real.op.IRealBinaryOp" ManuallyRouted="true" FixedFromPoint="true">
+      <Path>
+        <Point X="5.312" Y="3.028" />
+        <Point X="5.312" Y="3.323" />
+        <Point X="2.5" Y="3.323" />
+        <Point X="2.5" Y="4.5" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>number\real\op\IRealAdd.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="nilnul.number.real.op.IRealOp">
+    <Position X="1" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>number\real\op\IRealOp.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="nilnul.number.real.op.IRealSubtract">
+    <Position X="4" Y="4.5" Width="1.5" />
+    <InheritanceLine Type="nilnul.number.real.op.IRealBinaryOp" ManuallyRouted="true" FixedToPoint="true">
+      <Path>
+        <Point X="5.875" Y="3.028" />
+        <Point X="5.875" Y="3.479" />
+        <Point X="4.5" Y="3.479" />
+        <Point X="4.5" Y="4.5" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>number\real\op\IRealSubtract.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="nilnul.number.real.op.IRealBinaryOp">
+    <Position X="4.5" Y="2" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>number\real\op\IRealBinaryOp.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="nilnul.function.op.IOp&lt;TResult&gt;">
+    <Position X="1" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>function\op\IOp(TResult).cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="nilnul.function.op.binary.IBinaryOp&lt;TLeft, TRight, TResult&gt;">
+    <Position X="4.25" Y="0.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>function\op\binary\IBinaryOp(T1,T2,TResult).cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="nilnul.number.real.op.IRealMultiply">
+    <Position X="5.75" Y="4.5" Width="1.5" />
+    <InheritanceLine Type="nilnul.number.real.op.IRealBinaryOp" FixedFromPoint="true">
+      <Path>
+        <Point X="6.312" Y="3.028" />
+        <Point X="6.312" Y="4.125" />
+        <Point X="6.5" Y="4.125" />
+        <Point X="6.5" Y="4.5" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>number\real\op\IRealMultiply.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="nilnul.IRealDivide">
+    <Position X="7.5" Y="4.5" Width="1.5" />
+    <InheritanceLine Type="nilnul.number.real.op.IRealBinaryOp" FixedFromPoint="true">
+      <Path>
+        <Point X="7" Y="3.028" />
+        <Point X="7" Y="4.2" />
+        <Point X="8.25" Y="4.2" />
+        <Point X="8.25" Y="4.5" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>number\real\op\IRealDivide.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="nilnul.IRealPower">
+    <Position X="9.5" Y="4.5" Width="1.5" />
+    <InheritanceLine Type="nilnul.number.real.op.IRealBinaryOp" FixedFromPoint="true">
+      <Path>
+        <Point X="7.25" Y="2.688" />
+        <Point X="7.373" Y="2.688" />
+        <Point X="7.373" Y="4.2" />
+        <Point X="10.25" Y="4.2" />
+        <Point X="10.25" Y="4.5" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>number\real\op\IRealPower.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Tahoma" Size="8.25" />
+</ClassDiagram>

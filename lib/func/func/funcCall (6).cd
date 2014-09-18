@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="nilnul.math.number.real.BinaryClosedFuncCall">
+    <Position X="4" Y="3" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAAAAAAAAAAAAAAAAAAAIAAEAAAAAAAAAgAA=</HashCode>
+      <FileName>math\number\real\func\returnReal\closed\binary\BinaryClosedFuncCall ExprI.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="func" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Interface Name="nilnul.math.number.real.BinaryClosedFuncI" Collapsed="true">
+    <Position X="1" Y="3" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>math\number\real\func\returnReal\closed\binary\BinaryClosedFuncI.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Tahoma" Size="8.25" />
+</ClassDiagram>

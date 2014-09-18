@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="nilnul.math.number.rational.NegateCoprimeFraction" Collapsed="true">
+    <Position X="5.5" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgCAAAAQAAAAAAAAAQAAAAAAAEACAAAAAAAGAAAAA=</HashCode>
+      <FileName>math\number\rational\expr\NegateCoprimeFraction.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Interface Name="nilnul.math.number.rational.RationalI" Collapsed="true">
+    <Position X="3.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAA=</HashCode>
+      <FileName>math\number\rational\expr\RationalI RationalExprI.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="nilnul.math.number.rational.RationalExprI" Collapsed="true">
+    <Position X="2.25" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>math\number\rational\expr\RationalExprI RealExprI.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Tahoma" Size="8.25" />
+</ClassDiagram>
