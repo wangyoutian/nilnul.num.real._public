@@ -1,0 +1,133 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{5771DBBD-A14E-4378-95BD-B92659659F15}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>nilnul.num.real._test</RootNamespace>
+    <AssemblyName>nilnul.num.real._test</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{3AC096D0-A1C2-E12C-1390-A8335801FDAB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+    <ReferencePath>$(ProgramFiles)\Common Files\microsoft shared\VSTT\$(VisualStudioVersion)\UITestExtensionPackages</ReferencePath>
+    <IsCodedUITest>False</IsCodedUITest>
+    <TestProjectType>UnitTest</TestProjectType>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Numerics" />
+  </ItemGroup>
+  <Choose>
+    <When Condition="('$(VisualStudioVersion)' == '10.0' or '$(VisualStudioVersion)' == '') and '$(TargetFrameworkVersion)' == 'v3.5'">
+      <ItemGroup>
+        <Reference Include="Microsoft.VisualStudio.QualityTools.UnitTestFramework, Version=10.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+      </ItemGroup>
+    </When>
+    <Otherwise>
+      <ItemGroup>
+        <Reference Include="Microsoft.VisualStudio.QualityTools.UnitTestFramework" />
+      </ItemGroup>
+    </Otherwise>
+  </Choose>
+  <ItemGroup>
+    <Compile Include="UnitTest1.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\nilnul.bit1\nilnul.bit1.csproj">
+      <Project>{44b8389a-b3da-412d-8886-2cd9e70d6412}</Project>
+      <Name>nilnul.bit1</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\nilnul.collection.interval\nilnul.collection.interval.csproj">
+      <Project>{c2193530-6a77-427b-bf46-bf9dae111b10}</Project>
+      <Name>nilnul.collection.interval</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\nilnul.collection.set\nilnul.collection.set.csproj">
+      <Project>{f340c5ba-ed23-481b-a5ea-a001fc8c7653}</Project>
+      <Name>nilnul.collection.set</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\nilnul.collection\nilnul.collection.csproj">
+      <Project>{1b4258b0-7d81-4434-9a77-5dc075d83143}</Project>
+      <Name>nilnul.collection</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\nilnul.num.integer.extended%28120108\nilnul.num.integer.extended%28120108.csproj">
+      <Project>{bb42bed4-80e4-423a-84e2-704532498ccf}</Project>
+      <Name>nilnul.num.integer.extended%28120108</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\nilnul.num.integer\nilnul.num.integer.csproj">
+      <Project>{f0437fab-a4d2-4399-bf59-2f0f4848a714}</Project>
+      <Name>nilnul.num.integer</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\nilnul.num.natural%28130106\nilnul.num.natural%28130106%29.csproj">
+      <Project>{b5c58301-6b0b-4771-ab32-73963928d644}</Project>
+      <Name>nilnul.num.natural%28130106%29</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\nilnul.num.natural.extended%28130108\nilnul.num.natural.extended%28130108.csproj">
+      <Project>{fd7788a0-3104-432d-aa17-346c47c2ec7c}</Project>
+      <Name>nilnul.num.natural.extended%28130108</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\nilnul.op\nilnul.op%28130106%29.csproj">
+      <Project>{25384ed8-34b4-48dd-b99e-471c443715a1}</Project>
+      <Name>nilnul.op%28130106%29</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\nilnul.order\nilnul.order.csproj">
+      <Project>{20f86278-9889-4e2d-80b7-eacf7869f8d1}</Project>
+      <Name>nilnul.order</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\nilnul1\nilnul1.csproj">
+      <Project>{22c40b37-5a47-441c-8270-d2182bb7d625}</Project>
+      <Name>nilnul1</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Choose>
+    <When Condition="'$(VisualStudioVersion)' == '10.0' And '$(IsCodedUITest)' == 'True'">
+      <ItemGroup>
+        <Reference Include="Microsoft.VisualStudio.QualityTools.CodedUITestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+          <Private>False</Private>
+        </Reference>
+        <Reference Include="Microsoft.VisualStudio.TestTools.UITest.Common, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+          <Private>False</Private>
+        </Reference>
+        <Reference Include="Microsoft.VisualStudio.TestTools.UITest.Extension, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+          <Private>False</Private>
+        </Reference>
+        <Reference Include="Microsoft.VisualStudio.TestTools.UITesting, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+          <Private>False</Private>
+        </Reference>
+      </ItemGroup>
+    </When>
+  </Choose>
+  <Import Project="$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets" Condition="Exists('$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets')" />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
