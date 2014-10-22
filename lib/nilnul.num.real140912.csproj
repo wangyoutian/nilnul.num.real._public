@@ -3,7 +3,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{DC7CD21E-6810-417A-951B-54DBE4A00784}</ProjectGuid>
+    <ProjectGuid>{69340F18-A58C-407F-B193-C08ED887C622}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>nilnul.num.real</RootNamespace>
@@ -54,6 +54,7 @@
     <Compile Include="be\Zero.cs" />
     <Compile Include="be\NotZero.cs" />
     <Compile Include="Cut.cs" />
+    <Compile Include="double_\Eq.cs" />
     <Compile Include="E_posConverge2bounded.cs" />
     <Compile Include="E5.cs" />
     <Compile Include="E_byPow.cs" />
